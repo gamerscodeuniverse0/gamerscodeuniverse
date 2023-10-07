@@ -5,9 +5,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-#food1{
-    height: auto;
-}
+
 /* Header */
 #img1{
     float: left;
@@ -46,24 +44,7 @@ footer{
 }
 
 /* End Footer */
-#recp1{
-    color: blue;
-    text-decoration: underline green;
-}
-#list1{
-    list-style-type:square;
-    color:green;
-    
-    
-    font-size: 1.2em;
-}
-#list1 span a{
-    text-decoration: none;
-    color: green;
-}
-#list1 span a:hover{
-    color: white;
-}
+
 /* Date and time  */
 #labmove{
     padding-top: 10px;
