@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#food1{
+    height: auto;
+}
+/* Header */
+#img1{
+    float: left;
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+}
+header{
+    border: 10px solid green;
+    border-radius: 500px;
+}
+#heading{
+    color: red;
+    text-align: center;
+    text-decoration: underline blue;
+
+}
+#heading:hover{
+    text-shadow: -10px -10px white;
+}
+#heading span{
+    color: darkgreen;
+}
+#head2{
+    color: blueviolet;
+    text-decoration:double green;
+    text-align: center;
+}
+#head2 span{
+    color: grey;
+}
+/* End Header */
+/* Footer */
+footer{
+    margin-top: auto;
+
+}
+
+/* End Footer */
+#recp1{
+    color: blue;
+    text-decoration: underline green;
+}
+#list1{
+    list-style-type:square;
+    color:green;
+    
+    
+    font-size: 1.2em;
+}
+#list1 span a{
+    text-decoration: none;
+    color: green;
+}
+#list1 span a:hover{
+    color: white;
+}
+/* Date and time  */
+#labmove{
+    padding-top: 10px;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    text-decoration: underline green;
+}
