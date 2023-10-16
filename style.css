@@ -30,6 +30,7 @@ header{
 #heading span{
     color: darkgreen;
 }
+
 /* Menu */
 #menu{
 
@@ -61,7 +62,36 @@ header{
     color: red;
 }
 /* End Menu */
+
 /* End Header */
+
+/* About Page  */
+#about-div-header{
+    text-align: center;
+    text-decoration: underline red;
+    color: Blue;
+}
+#img2{
+    float:  left;
+    width: 150px;   
+    margin: 10px 10px 10px 10px;
+    margin-left: 100px ;
+
+}
+#about-div1{
+    text-align: center;
+    margin-right: 210px;
+}
+#about-desc{
+    text-align: center;
+    margin-top: 30px;   
+}
+#about-desc-p{
+    margin-left: 300px;
+    margin-top: 0px;
+}
+/* End About Page  */
+
 /* Footer */
 main{
     min-height: 100vh;
@@ -70,7 +100,24 @@ main{
 footer{
     width: 100%;
     background: gray;
-    height: 100px;
+    height: 200px;
+}
+#footer-h1{
+    margin-left: 20px;
+}
+#footer-p{
+    font-size: 20px;
+    margin-left: 20px ;
+}
+#icon{
+    margin-left: 20px;
+}
+#footer-youtube{
+    margin-top: 10px;
+    color: black;
+}
+#footer-discord{
+    color: black;
 }
 
 /* End Footer */
